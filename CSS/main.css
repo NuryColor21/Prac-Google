@@ -168,7 +168,7 @@ footer .abajo a{
 footer {
     background-color: #f1f0f0;
     margin-top: 60px;
-    margin-bottom: auto;
+    bottom: 0;
     padding: 10px;
 }
 
