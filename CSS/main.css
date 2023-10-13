@@ -169,6 +169,7 @@ footer {
     background-color: #f1f0f0;
     margin-top: 60px;
     width: 100%;
+    position: absolute;
     bottom: 0;
     padding: 10px;
 }
