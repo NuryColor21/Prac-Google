@@ -138,40 +138,36 @@ main .letras-la, .letras{ /*Estlo para la parte de Ofrecido por Google en: Espa√
 
 
 footer nav .abajo{ /*Llama la clase nav que declaramos en html con su nombre*/
-    width: 1100px;
-    height: 0px;
-    display: flex;
+    width: 1100px; /*Le ponemos el ancho*/
+    height: 0px; /*Altura*/
+    display: flex; /*Para que se encuentre en la misma linea*/
     list-style: none; /*Para quitar los puntos de la lista*/
-    
 }
 
-footer nav .abajo2{
-    width: 500px;
-    height: 0px;
-    display: flex;
-    justify-content: flex-end;
+footer .abajo a{ /*Referencia a las acnclas de la clase*/
+    margin-right: 10px; /*Le colocamos un marge a la derecha*/
+    color: #575758; /*Le agregamos un color a las letras*/
+}
+
+footer nav .abajo2{ /*Llama la clase nav que declaramos en html con su nombre*/
+    width: 500px; /*Le indicamos un ancho*/
+    height: 0px; /*Altura*/
+    display: flex;  /*Para que se encuentre en la misma linea*/
+    justify-content: flex-end; /*Su pocision y quede en la derecha*/
     list-style: none; /*Para quitar los puntos de la lista*/
-    text-align: left;
-    
 }
 
-
-footer .abajo a{
-    margin-right: 10px;
-    color: #575758;
-}
-
-#mexico {
-    color: #575758; 
+#mexico { /*Hacemos referencia al id Mexico en el archivo HTML.*/ 
+    color: #575758; /*Le ponemos un color*/
   }
 
-  footer{
-    background-color: #f1f0f0;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    align-items: center;
-    border-top: 1px solid #d6d6d6;
+  footer{ /*Estilo para el pie de pagina*/
+    background-color: #f1f0f0; /*Color del fondo*/
+    width: 100%; /*Ancho del footer le decimos que ocupe toda pantalla*/
+    position: absolute; /* el elemento se coloca absolutamente respecto a su padre*/
+    bottom: 0; /*Esto sirve para que el footer ocupe la parte de abajo de la pagina*/
+    align-items: center; /*Centramos*/
+    border-top: 1px solid #f1f0f0; /*Borde de arriba*/
 }
 
 
